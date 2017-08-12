@@ -1,14 +1,14 @@
-#$Filename:func-nonlocal.py
+# $Filename:func-nonlocal.py
 
 def func_outer():
-        x=2
-        print('x is',x)
+        x = 2
+        print('x is', x)
 
-        def fun_inner():
+        def func_inner():
             nonlocal x
-            x=5
+            x = 5
 
         func_inner()
-        print('Changed local x to',x)
+        print('Changed local x to', x)
 
 func_outer()
