@@ -6,7 +6,7 @@ while True:
     break
   if len(s)<3:
     print('Too small')
-  else len(s)>5:
+  elif len(s)>5:
     print('Too big')
   continue
   print('Input is of sufficient length')
