@@ -10,7 +10,7 @@ while running:
     print("Congratulatiopn,you guessed it.")
     running=False #this cause the while loop to stop
   elif guess<number:
-    print("No,it is a littlle higher.")
+    print("No,it is a little higher.")
   else:
     print("No,it is a little lower.")
 else:
