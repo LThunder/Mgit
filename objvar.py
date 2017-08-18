@@ -6,13 +6,13 @@ class Robot:
     #A class variable, counting the number of robots
     population = 0
 
-    def __init__(self,name):
+    def __init__(self, name):
         '''Initialize the data.'''
-        self.name = name 
+        self.name = name
         print('(Initialize {0})'.format(self.name))
 
         #When this person is created, the robot
-        # adds to the population 
+        # adds to the population
         Robot.population += 1
 
     def __del__(self):
